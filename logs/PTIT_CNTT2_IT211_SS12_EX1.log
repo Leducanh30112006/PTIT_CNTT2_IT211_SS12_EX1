@@ -1,0 +1,76 @@
+2026-05-27T22:09:34.055+07:00  INFO 13664 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] c.r.p.PtitCntt2It211Ss12Ex1Application   : Starting PtitCntt2It211Ss12Ex1Application using Java 17.0.18 with PID 13664 (E:\Admin\Documents\PTIT_CNTT2_IT211\PTIT_CNTT2_IT211_SS12_EX1\build\classes\java\main started by Admin in E:\Admin\Documents\PTIT_CNTT2_IT211\PTIT_CNTT2_IT211_SS12_EX1)
+2026-05-27T22:09:34.058+07:00  INFO 13664 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] c.r.p.PtitCntt2It211Ss12Ex1Application   : No active profile set, falling back to 1 default profile: "default"
+2026-05-27T22:09:34.095+07:00  INFO 13664 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-27T22:09:34.095+07:00  INFO 13664 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-27T22:09:34.607+07:00  INFO 13664 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-27T22:09:34.631+07:00  INFO 13664 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2026-05-27T22:09:35.109+07:00  INFO 13664 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-27T22:09:35.126+07:00  INFO 13664 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-27T22:09:35.126+07:00  INFO 13664 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-27T22:09:35.170+07:00  INFO 13664 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1074 ms
+2026-05-27T22:09:35.324+07:00  INFO 13664 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-27T22:09:35.397+07:00  INFO 13664 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-27T22:09:35.832+07:00  INFO 13664 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-27T22:09:35.867+07:00  INFO 13664 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-27T22:09:36.185+07:00  INFO 13664 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@156acb54
+2026-05-27T22:09:36.187+07:00  INFO 13664 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-27T22:09:36.276+07:00  INFO 13664 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/db_SS12_EX1?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: db_SS12_EX1/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-27T22:09:36.695+07:00  INFO 13664 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-27T22:09:36.704+07:00  INFO 13664 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-27T22:09:36.857+07:00  WARN 13664 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-27T22:09:37.237+07:00  INFO 13664 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-27T22:09:37.242+07:00  INFO 13664 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] c.r.p.PtitCntt2It211Ss12Ex1Application   : Started PtitCntt2It211Ss12Ex1Application in 3.563 seconds (process running for 4.245)
+2026-05-27T22:09:48.868+07:00  INFO 13664 --- [PTIT_CNTT2_IT211_SS12_EX1] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-27T22:09:48.959+07:00  INFO 13664 --- [PTIT_CNTT2_IT211_SS12_EX1] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-27T22:09:48.964+07:00  INFO 13664 --- [PTIT_CNTT2_IT211_SS12_EX1] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-27T22:09:48.968+07:00  INFO 13664 --- [PTIT_CNTT2_IT211_SS12_EX1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-27T22:09:48.975+07:00  INFO 13664 --- [PTIT_CNTT2_IT211_SS12_EX1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-27T22:09:51.704+07:00  INFO 7412 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] c.r.p.PtitCntt2It211Ss12Ex1Application   : Starting PtitCntt2It211Ss12Ex1Application using Java 17.0.18 with PID 7412 (E:\Admin\Documents\PTIT_CNTT2_IT211\PTIT_CNTT2_IT211_SS12_EX1\build\classes\java\main started by Admin in E:\Admin\Documents\PTIT_CNTT2_IT211\PTIT_CNTT2_IT211_SS12_EX1)
+2026-05-27T22:09:51.707+07:00  INFO 7412 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] c.r.p.PtitCntt2It211Ss12Ex1Application   : No active profile set, falling back to 1 default profile: "default"
+2026-05-27T22:09:51.750+07:00  INFO 7412 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-27T22:09:51.750+07:00  INFO 7412 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-27T22:09:52.310+07:00  INFO 7412 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-27T22:09:52.336+07:00  INFO 7412 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2026-05-27T22:09:52.902+07:00  INFO 7412 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-27T22:09:52.912+07:00  INFO 7412 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-27T22:09:52.913+07:00  INFO 7412 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-27T22:09:52.970+07:00  INFO 7412 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1219 ms
+2026-05-27T22:09:53.177+07:00  INFO 7412 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-27T22:09:53.219+07:00  INFO 7412 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-27T22:09:53.728+07:00  INFO 7412 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-27T22:09:53.760+07:00  INFO 7412 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-27T22:09:54.073+07:00  INFO 7412 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@47f22add
+2026-05-27T22:09:54.076+07:00  INFO 7412 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-27T22:09:54.159+07:00  INFO 7412 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/db_SS12_EX1?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: db_SS12_EX1/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-27T22:09:54.526+07:00  INFO 7412 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-27T22:09:54.534+07:00  INFO 7412 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-27T22:09:54.672+07:00  WARN 7412 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-27T22:09:55.063+07:00  INFO 7412 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-27T22:09:55.069+07:00  INFO 7412 --- [PTIT_CNTT2_IT211_SS12_EX1] [restartedMain] c.r.p.PtitCntt2It211Ss12Ex1Application   : Started PtitCntt2It211Ss12Ex1Application in 3.766 seconds (process running for 4.29)
+2026-05-27T22:09:55.774+07:00  INFO 7412 --- [PTIT_CNTT2_IT211_SS12_EX1] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-27T22:09:55.836+07:00  INFO 7412 --- [PTIT_CNTT2_IT211_SS12_EX1] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-27T22:09:55.840+07:00  INFO 7412 --- [PTIT_CNTT2_IT211_SS12_EX1] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-27T22:09:55.843+07:00  INFO 7412 --- [PTIT_CNTT2_IT211_SS12_EX1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-27T22:09:55.857+07:00  INFO 7412 --- [PTIT_CNTT2_IT211_SS12_EX1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
